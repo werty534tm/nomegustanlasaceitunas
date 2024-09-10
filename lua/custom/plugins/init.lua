@@ -7,10 +7,5 @@ return {
   require 'custom.plugins.colorizer',
   -- Dashboard
   require 'custom.plugins.alpha',
-  --[[Arte ascii
-  {
-    'MaximilianLloyd/ascii.nvim',
-    dependencies = 'MunifTanjim/nui.nvim',
-  },
-  ]]
+  -- tree
 }
