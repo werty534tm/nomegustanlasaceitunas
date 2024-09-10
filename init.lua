@@ -85,7 +85,7 @@ P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
 --Options
-require 'custom.options'
+require 'custom.modules.options'
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
