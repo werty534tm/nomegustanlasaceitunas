@@ -84,6 +84,15 @@ I hope you enjoy your Neovim journey,
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
+-- Syntaxis de ccscript
+-- Autocomando en Lua para asociar .ccs con ccscript
+vim.api.nvim_create_autocmd({ 'BufRead', 'BufNewFile' }, {
+  pattern = '*.ccs',
+  callback = function()
+    vim.bo.filetype = 'ccscript'
+  end,
+})
+
 --Options
 require 'custom.modules.options'
 
@@ -539,6 +548,14 @@ require('lazy').setup({
         -- clangd = {},
         -- gopls = {},
         pyright = {},
+        sqlls = {
+          capabilities = capabilities,
+          filetypes = { 'sql' },
+          root_dir = function()
+            return vim.loop.cwd()
+          end,
+          autostart = true,
+        },
         asm_lsp = {},
         rust_analyzer = {},
         jsonls = {},

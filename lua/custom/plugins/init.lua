@@ -7,5 +7,4 @@ return {
   require 'custom.plugins.colorizer',
   -- Dashboard
   require 'custom.plugins.alpha',
-  -- tree
 }
