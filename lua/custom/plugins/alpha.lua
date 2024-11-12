@@ -7,7 +7,7 @@ return {
     local dashboard = require 'alpha.themes.dashboard'
     local ascii = require 'custom.resources.ascii'
 
-    dashboard.section.header.val = ascii.doom
+    dashboard.section.header.val = ascii.ambos
 
     dashboard.section.buttons.val = {
       dashboard.button('e', '  New file', ':ene <BAR> startinsert <CR>'),
