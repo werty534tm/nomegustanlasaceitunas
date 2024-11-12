@@ -7,4 +7,8 @@ return {
   require 'custom.plugins.colorizer',
   -- Dashboard
   require 'custom.plugins.alpha',
+  -- Bases de datos
+  'tpope/vim-dadbod',
+  'kristijanhusak/vim-dadbod-ui',
+  'kristijanhusak/vim-dadbod-completion',
 }
