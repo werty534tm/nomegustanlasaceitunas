@@ -8,7 +8,9 @@ return {
   -- Dashboard
   require 'custom.plugins.alpha',
   -- Bases de datos
-  'tpope/vim-dadbod',
-  'kristijanhusak/vim-dadbod-ui',
-  'kristijanhusak/vim-dadbod-completion',
+  require 'custom.plugins.ddbb',
+  -- Markdown
+  require 'custom.plugins.render-markdown',
+  -- Vim be good
+  'ThePrimeagen/vim-be-good',
 }
