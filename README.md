@@ -1,4 +1,4 @@
-# asmodeus.nvim
+# Esto es pa la torre xd
 > I'm too lazy to rewrite the whole README right now :(
 
 ## Introduction
