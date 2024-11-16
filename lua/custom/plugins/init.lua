@@ -11,6 +11,7 @@ return {
   require 'custom.plugins.ddbb',
   -- Markdown
   require 'custom.plugins.render-markdown',
+  'kristijanhusak/vim-dadbod-completion',
   -- Vim be good
   'ThePrimeagen/vim-be-good',
 }
